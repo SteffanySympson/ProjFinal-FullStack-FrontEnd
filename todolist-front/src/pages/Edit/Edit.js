@@ -64,6 +64,14 @@ const Edit = (props) => {
                                     <option value='alta'>Alta</option>
                                 </select>
                             </div>
+                            <div className='div-descricao'>
+                                <label name='Tarefa' htmlFor='prioridadeTarefa'>Status</label>
+                                <select name='prioridadeTarefa' id='prioridadeTarefa' value={tarefa.statusTarefa} onChange={handleFieldsChange}>
+                                    <option value='baixa'>A Fazer</option>
+                                    <option value='media'>Realizando</option>
+                                    <option value='alta'>Feito  </option>
+                                </select>
+                            </div>
                             <div className='div-btn'>
                                 <button className='btn-apagar' type='submit'>Alterar</button>
                                 <Link to={`/`} className='btn-editar' type="button" value="Home">Voltar</Link>

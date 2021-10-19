@@ -1,3 +1,7 @@
+.todo{
+    width: 100%;
+}
+
 .card{
     background-color: #fff;
     border-top: 10px double #ff6550;
@@ -18,3 +22,4 @@
     text-shadow: rgb(58, 58, 58);
     color: rgb(77, 0, 0);
 }
+

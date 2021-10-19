@@ -8,6 +8,7 @@ const Card = (props) => {
             <Link to={`/view/${tarefa._id}`} >
                 <h5>{tarefa.nomeTarefa}</h5>
                 <span>{tarefa.descricaoTarefa}</span>
+                <span>{tarefa.prioridade}</span> 
             </Link>
         </>
     )

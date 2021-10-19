@@ -13,14 +13,16 @@
 
 .div-ok{
     display: flex;
-    padding: 10px;
+    flex-direction: column;
+    padding: 5px;
     text-align: center;
     border-top: 2px solid #ccc;
     align-items: center;
+    width: 100%;
 }
 
 .div-ok-check{
-    padding-top: 3px;
+    padding-top: 1px;
     display: flex;
     text-align: center;
 }
@@ -33,7 +35,7 @@ h1{
 }
 
 .div-ok-int{
-    width:100%;
+    width:50%;
 }
 
 .div-ok a{
@@ -58,4 +60,8 @@ h1{
 
 .alta{
     background-color: #f00;
+}
+
+.concluido{
+    width: 20%;
 }

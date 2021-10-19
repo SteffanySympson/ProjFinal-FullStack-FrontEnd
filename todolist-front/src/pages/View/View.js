@@ -47,6 +47,9 @@ const View = (props) => {
                         <p>{tarefa.prioridadeTarefa}</p>
                     </div>
                     <div className='div-descricao'>
+                        <p>{tarefa.statusTarefa}</p>
+                    </div>
+                    <div className='div-descricao'>
                         <p>{tarefa.dataCriacaoTarefa}</p>
                     </div>
                     <div className='div-btn'>
@@ -56,9 +59,9 @@ const View = (props) => {
                     </div>
                 </div>
                 <Modal open={open} onClose={onCloseModal} center>
-                    <h2>Deseja realmente Excluir</h2>
-                        <button className="btn btn-danger" onClick={onCloseModal}>Não</button>
-                        <button className="btn btn-success" onClick={handleDelete}>Sim</button>
+                    <h2 className="h2modal">Excluir?</h2>
+                        <button class="btnnao" onClick={onCloseModal}>Não</button>
+                        <button class="btnsim" onClick={handleDelete}>Sim</button>
                 </Modal>
             </div>
         </>

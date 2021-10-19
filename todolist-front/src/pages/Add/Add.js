@@ -12,11 +12,13 @@ const Add = (props) => {
         const nomeTarefa = evento.target.nomeTarefa.value;
         const descricaoTarefa = evento.target.descricaoTarefa.value;
         const prioridadeTarefa = evento.target.prioridadeTarefa.value;
+        const statusTarefa = evento.target.statusTarefa.value;
         
         const tarefa = {
             nomeTarefa, 
             descricaoTarefa, 
-            prioridadeTarefa
+            prioridadeTarefa,
+            statusTarefa
         }
 
     try{
@@ -34,7 +36,7 @@ const Add = (props) => {
             <div className='tudo'>
                 <div className='card'>
                     <div className='div-titulo'>
-                        <h3>Add Nova Tarefa!</h3>
+                        <h3>Inclusão de Tarefa!!</h3>
                     </div>
                     <div className='div-titulo'>
                         <form onSubmit={handleSubmit}>
@@ -55,16 +57,16 @@ const Add = (props) => {
                                 </select>
                             </div>
                             <div className='div-descricao'>
-                                <label name='Tarefa' htmlFor='prioridadeTarefa'>Status</label>
-                                <select name='prioridadeTarefa' id='prioridadeTarefa'>
-                                    <option value='baixa'>A fazer</option>
+                                <label name='Tarefa' htmlFor='statusTarefa'>Status</label>
+                                <select name='statusTarefa' id='statusTarefa'>
+                                    <option value='baixa'>A Fazer</option>
                                     <option value='media'>Realizando</option>
-                                    <option value='alta'>Finalizada</option>
+                                    <option value='alta'>Feito</option>
                                 </select>
                             </div>
                             <div className='div-btn'>
-                                <button className='btn-apagar' type='submit'>Cadastrar</button>
-                                <Link to={`/`} className='btn-editar' type="button" value="Home">Voltar</Link>
+                                <button class="btn btn-outline-success" type='submit'>Cadastrar</button>
+                                <Link to={`/`} class="btn btn-outline-warning" type="button" value="Home">Voltar</Link>
                             </div>
                         </form>
                     </div>

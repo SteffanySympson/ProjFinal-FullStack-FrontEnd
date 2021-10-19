@@ -62,6 +62,64 @@ input[type=checkbox]{
     width:auto;
 }
 
+.btnsim {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.btnsim:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.btnsim:active {
+	position:relative;
+	top:1px;
+}
+
+.btnnao {
+	box-shadow: 3px 4px 0px 0px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:15px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.btnnao:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.btnnao:active {
+	position:relative;
+	top:1px;
+}
+
+.h2modal{
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    margin-top: -5px;
+}
+
 .btn-editar{
     background-color: #007F11;
     color: #fff;
