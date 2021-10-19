@@ -1,0 +1,20 @@
+.card{
+    background-color: #fff;
+    border-top: 10px double #ff6550;
+    border-bottom: 10px double #ff6550;
+    width: 100%;
+    min-height: 20rem;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.div-titulo h3{
+    padding: 1px;
+    font-size: 25px;
+    width: 100%;
+    text-shadow: rgb(58, 58, 58);
+    color: rgb(77, 0, 0);
+}

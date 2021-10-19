@@ -1,0 +1,20 @@
+.tudo-header{
+    width: 100%;
+    height: auto;
+    background-color: #5e0000;
+    padding: 8px;
+}
+
+.tudo-header a{
+    color: #fff;
+    text-decoration: none;
+    margin: 60px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.4s ease-out;
+}
+
+.tudo-header a:hover{
+    color: rgb(255, 154, 154);
+    
+}
