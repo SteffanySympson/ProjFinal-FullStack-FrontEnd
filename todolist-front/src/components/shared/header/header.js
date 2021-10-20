@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import img from '../images/img.png';
 import './header.css';
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
         <>
             <div className='tudo-header'>
                 <nav>
-                    {/* <img src='./header/img.png'/> */}
+                    <img className='imgowl' src={ img }/>
                     <Link to='/' >
                         Início
                     </Link>
